@@ -68,7 +68,7 @@ public class TallerIS {
 		
 		
 		//-------------------------------------------------------------------------------------
-		//Casos de Prueba
+		//Casos de Prueba..
 		
 		System.out.println("Test 1: "+ "Equilateral".equals(TriangleType(3,3,3)));
 		
