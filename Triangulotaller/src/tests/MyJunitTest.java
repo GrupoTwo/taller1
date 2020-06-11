@@ -6,6 +6,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 import taller1.TallerIS;
+import taller1.TallerISC;
 
 public class MyJunitTest {
 	@Test
@@ -65,6 +66,11 @@ public class MyJunitTest {
 	@Test
 	public void EsEscaleno() {
 		assertEquals("Scalene",TallerIS.TriangleType(2,3,4));
+	}
+	
+	@Test
+	public void EsEquilatero2() {
+		assertEquals("Equilateral",TallerISC.TriangleType(2.5,2.5,2.5));
 	}
 	
 	
