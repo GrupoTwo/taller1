@@ -41,7 +41,7 @@ public class TallerIS {
 			c = s.nextInt();
 			c1 = 1<=a && a<=200;
 			c2 = 1<=b && b<=200;
-			c3 = 1<=b && c<=200;
+			c3 = 1<=c && c<=200;
 			if (!c1) {
 				System.out.println("El valor de a no es permitido");
 			}
@@ -51,7 +51,7 @@ public class TallerIS {
 			if(!c3) {
 				System.out.println("El valor de c no es permitido");
 			}
-		}while(!c1 && !c2 && !c3);
+		}while(!c1 || !c2 || !c3);
 		System.out.println("Side A is " + a);
 		System.out.println("Side B is " + b);
 		System.out.println("Side C is " + c);
