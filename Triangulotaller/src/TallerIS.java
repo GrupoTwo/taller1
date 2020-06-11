@@ -12,12 +12,7 @@ public class TallerIS {
 	public static String TriangleType(int a, int b, int c) {
 		Boolean IsAtriangle;
 		
-		if((a<b+c) && (b<a+c) && (c<a+b)) {
-			IsAtriangle = true;
-		}
-		else {IsAtriangle = false;}
-		
-		if(IsAtriangle){
+		if(isATriangle(a,b,c)){
 		
 			if (a==b && b==c ) {
 				return "Equilateral";
