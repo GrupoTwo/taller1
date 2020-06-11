@@ -27,10 +27,23 @@ public class MyJunitTest {
 	public void fueraDeRangoInferior() {
 		 assertFalse(TallerIS.cehckRanges(0, 0, 0));
 	}
+		
 	
 	@Test
 	public void rangoSuperior() {
 		 assertTrue(TallerIS.cehckRanges(200, 200, 200));
 	}
 	
+
+	@Test
+	public void fueraDeRangoSuperior() {
+		 assertFalse(TallerIS.cehckRanges(200, 0, 4));
+	}
+	
+	
+	
+	@Test
+	public void esTrianguloNegativo() {
+		 assertEquals("Isoceles",TallerIS.TriangleType(-2, -2, -2));
+	}
 }

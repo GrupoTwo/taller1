@@ -6,7 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Edgardo/Documents/java library/hamcrest-core-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Edgardo/Documents/java library/junit-4.13.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/Eclipse/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/Eclipse/junit-4.10.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
