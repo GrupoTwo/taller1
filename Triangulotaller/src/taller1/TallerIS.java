@@ -105,6 +105,8 @@ public class TallerIS {
 		System.out.println("Test 1: "+ "Equilateral".equals(TriangleType(3,3,3)));
 		
 		
+		
+		
 	}
 	
 }

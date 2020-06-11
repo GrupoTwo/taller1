@@ -47,19 +47,25 @@ public class MyJunitTest {
 		 assertEquals("Isoceles",TallerIS.TriangleType(-2, -2, -2));
 	}
 	
-	@Test
-	public void caracterInvalido() {
-		try {
-			assertEquals("Input inválido",TallerIS.TriangleType(4,5,=));
-		}catch{
-			System.out.println("Input inválido")
-		}
+//	@Test
+//	public void caracterInvalido() {
+	//	try {
+		//	assertEquals("Input invï¿½lido",TallerIS.TriangleType(4,5,=));
+		//}catch{
+		//	System.out.println("Input invï¿½lido")
+		//}
 		
-	}
+	//}
 	
 	@Test
 	public void NoEsTriangulo() {
 		assertEquals("Not a Triangle",TallerIS.TriangleType(200,1,1));
 	}
+	
+	@Test
+	public void EsEscaleno() {
+		assertEquals("Scalene",TallerIS.TriangleType(2,3,4));
+	}
+	
 	
 }
