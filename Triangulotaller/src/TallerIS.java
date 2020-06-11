@@ -2,6 +2,13 @@ import java.util.Scanner;
 
 public class TallerIS {
 	
+	public static boolean isATriangle(int a,int b, int c) {
+		if(a<b+c && b<c+a && c<a+b ) {
+			return true;
+		}
+		return false;
+	}
+	
 	public static String TriangleType(int a, int b, int c) {
 		Boolean IsAtriangle;
 		
@@ -29,6 +36,8 @@ public class TallerIS {
 
 	}
  
+	
+	
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);
@@ -65,7 +74,8 @@ public class TallerIS {
 		System.out.println("Side A is " + a);
 		System.out.println("Side B is " + b);
 		System.out.println("Side C is " + c);
-		
+		System.out.println("Es triangulo?: "+isATriangle(a,b,c));
+		System.out.println(TriangleType(a,b,c));
 		
 		//-------------------------------------------------------------------------------------
 		//Casos de Prueba..
