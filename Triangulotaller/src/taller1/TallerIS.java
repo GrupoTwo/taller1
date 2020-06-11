@@ -29,7 +29,6 @@ public class TallerIS {
 		int a = 0;
 		int b = 0;
 		int c = 0;
-		int error = 1;
 		boolean c1,c2,c3;
 		do {
 			System.out.println("Ingrese 3 enteros lados de un triangulo");

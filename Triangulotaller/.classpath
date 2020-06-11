@@ -8,6 +8,5 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="lib" path="D:/Program Files/Eclipse/hamcrest-core-1.3.jar"/>
 	<classpathentry exported="true" kind="lib" path="D:/Program Files/Eclipse/junit-4.10.jar"/>
-	<classpathentry kind="lib" path="C:/Users/edyto/Downloads/junit-4.13.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -34,11 +34,24 @@ public class TallerISC {
 		do {
 			System.out.println("Ingrese 3 enteros lados de un triangulo");
 			System.out.println("Ingrese el valor de a");
-			a = s.nextInt();
+			while(!s.hasNextDouble()) {
+				System.out.println("Valor no válido, intentalo de nuevo: ");
+				s.next();
+			}	
+			a = s.nextDouble();
+			
 			System.out.println("Ingrese el valor de b");
-			b = s.nextInt();
+			while(!s.hasNextDouble()) {
+				System.out.println("Valor no válido, intentalo de nuevo: ");
+				s.next();
+			}	
+			b = s.nextDouble();
 			System.out.println("Ingrese el valor de c");
-			c = s.nextInt();
+			while(!s.hasNextDouble()) {
+				System.out.println("Valor no válido, intentalo de nuevo: ");
+				s.next();
+			}	
+			c = s.nextDouble();
 			c1 = 1<=a && a<=200;
 			c2 = 1<=b && b<=200;
 			c3 = 1<=c && c<=200;

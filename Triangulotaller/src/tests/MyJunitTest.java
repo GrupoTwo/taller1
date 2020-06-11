@@ -45,7 +45,7 @@ public class MyJunitTest {
 	
 	@Test
 	public void esTrianguloNegativo() {
-		 assertEquals("Isoceles",TallerIS.TriangleType(-2, -2, -2));
+		 assertFalse(TallerIS.cehckRanges(-2, -2, -2));
 	}
 	
 //	@Test
